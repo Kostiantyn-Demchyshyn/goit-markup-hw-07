@@ -1,0 +1,28 @@
+.btn {
+  min-height: 50;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  color: var(--third-text-color);
+  background-color: var(--accent-color);
+
+  border-style: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  transition: color var(--transition-duration),
+    background-color var(--transition-duration);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    background-color: var(--third-text-color);
+  }
+}

@@ -1,0 +1,37 @@
+.team {
+  background-color: #f5f4fa;
+
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__item {
+    width: calc((100% - 90px) / 4);
+    background-color: var(--third-text-color);
+    box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024,
+      0px 2px 1px #00000033;
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  &__meta {
+    padding: 30px 0;
+  }
+
+  &__name {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--secondary-text-color);
+  }
+
+  &__description {
+    margin-bottom: 16px;
+
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+  }
+}
