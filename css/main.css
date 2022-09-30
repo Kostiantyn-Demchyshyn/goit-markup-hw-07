@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import "~node_modules/modern-normalize/modern-normalize.css";
 :root {
   --accent-color: #2196f3;
   --primary-text-color: #757575;
